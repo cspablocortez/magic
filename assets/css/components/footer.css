@@ -1,0 +1,11 @@
+/* Footer.css */
+
+.footer {
+    background-color: brown;
+    color: white;
+    padding: var(--space-m)
+}
+
+.footer a {
+    color: white;
+}
