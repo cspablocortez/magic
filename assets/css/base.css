@@ -40,7 +40,8 @@ body {
 
 .navbar {
     background-color: black;
-    padding-block: var(--space-xs);
+    padding-block: var(--space-2xs);
+    padding-inline: var(--space-xs);
     display: flex;
     align-items: center;
     gap: 1rem;
