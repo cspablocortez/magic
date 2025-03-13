@@ -33,7 +33,16 @@ html {
 
 body {
     background-color: lightgray;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+  background-color: salmon;
+}
+
+main {
+  background-color: wheat;
 }
   
 .container {
