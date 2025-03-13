@@ -35,17 +35,38 @@ body {
     background-color: lightgray;
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
-nav {
-  background-color: salmon;
+.navbar {
+    background-color: black;
+    padding-block: var(--space-xs);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+    & h1 {
+        color: white;
+        margin: 0;
+    }
+}
+
+.logo {
+    height: 40px;
+}
+
+.logo:hover {
+/*    filter: drop-shadow(0 0 8px #ea3601 #ea3601);*/
+        filter: drop-shadow(2px 4px 7px red);
 }
 
 main {
-  background-color: wheat;
+    background-color: wheat;
+    flex-grow: 1;
 }
   
 .container {
+    flex-grow: 1;
     display: flex;
     flex-direction: row;
     gap: var(--space-xs);
