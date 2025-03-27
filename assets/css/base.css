@@ -57,13 +57,13 @@ body {
 }
 
 .logo:hover {
-/*    filter: drop-shadow(0 0 8px #ea3601 #ea3601);*/
-        filter: drop-shadow(2px 4px 7px red);
+    filter: drop-shadow(2px 4px 7px red);
 }
 
 main {
     background-color: wheat;
     flex-grow: 1;
+    padding: var(--space-xs);
 }
   
 .container {
