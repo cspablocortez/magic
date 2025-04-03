@@ -13,8 +13,9 @@
   & ul {
     margin: 0;
     padding: 0;
+    padding-left: 4rem;
+    gap: 2rem;
     display: flex;
-    justify-content: space-around;
   }
   
   & li {
@@ -28,6 +29,7 @@
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 200;
+  font-size: 0.84rem;
 }
 
 .footer__link:hover {
