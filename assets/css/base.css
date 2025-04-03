@@ -61,9 +61,9 @@ body {
 }
 
 main {
-    background-color: wheat;
+/*    background-color: wheat;*/
     flex-grow: 1;
-    padding: var(--space-xs);
+/*    padding: var(--space-xs);*/
 }
   
 .container {

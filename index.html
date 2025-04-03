@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/components/hero.css">
     <link rel="stylesheet" href="assets/css/components/footer.css">
     <title>Magic</title>
 </head>
@@ -16,10 +17,12 @@
       </nav>
 
       <main>
-          <h1 style="text-align: center; font-size: 2.5rem;">Title Here</h1>
-          <p style="text-align: center; font-size: 2.5rem;">Brief one sentence explanation of the game</p>
-          <button style="display: block; margin-inline: auto; height: 60px; width: 120px;">Play</button>
-          <p style="text-align: center;"><a href="#">Learn to play</a></p>
+          <section class="hero">
+            <h1 class="hero__title">Title Here</h1>
+            <p class="hero__tagline">Brief one sentence explanation of the game</p>
+            <button class="hero__cta">Play</button>
+            <p class="hero__help"><a href="#">Learn to play</a></p>
+          </section>
       </main>
     
       <footer class="footer">
