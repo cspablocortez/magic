@@ -2,7 +2,8 @@
 
 .hero {
   text-align: center;
-  background-color: #230240;
+  background: rgb(2,2,4);
+  background: linear-gradient(90deg, rgba(2,2,4,1) 0%, rgba(77,26,83,1) 52%);
   min-height: 100%;
   color: #f1f1f1;
 }
